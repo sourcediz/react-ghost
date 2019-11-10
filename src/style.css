@@ -1,0 +1,92 @@
+.brightness-filter-component{
+}
+
+h1{color: blue}
+
+.brightness-filter-opacity{
+	height: 100vh;
+	position: fixed;
+	width: 100vw;
+	background-color: black;
+	z-index: 999997;
+}
+
+.brightness-filter-brightness{
+}
+
+.brightness-filter-orange{
+	background-color: #ffa400;
+	opacity: 0.2;
+	height: 100vh;
+	position: fixed;
+	width: 100vw;
+	z-index: 999998;
+
+}
+
+.brightness-filter-component-option-box{
+	align-items: center;
+	background-color: blue;
+	border-radius: 0 10px 10px 0;
+	bottom: 20%;
+	display: flex;
+	left: 0;
+	padding :10px;
+	position: fixed;
+	z-index: 999999;
+}
+.brightness-filter-component-option-box *{
+	margin: 0 20px;
+	cursor: pointer;
+}
+
+.brightness-filter-component-option-tab{
+	background-color: blue;
+	border-radius: 0 10px 10px 0;
+	bottom: 20%;
+	color: #fff;
+	cursor: pointer;
+	left: 0;
+	padding :10px;
+	position: fixed;
+	z-index: 999999;
+}
+
+
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  padding: 0;
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
